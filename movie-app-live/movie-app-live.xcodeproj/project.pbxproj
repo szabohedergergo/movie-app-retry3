@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2C7E7DDD2E197F7000D8930B /* InjectPropertyWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 2C7E7DDC2E197F7000D8930B /* InjectPropertyWrapper */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2C7E7DBD2E19798000D8930B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7E7DDD2E197F7000D8930B /* InjectPropertyWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "movie-app-live";
 			packageProductDependencies = (
+				2C7E7DDC2E197F7000D8930B /* InjectPropertyWrapper */,
 			);
 			productName = "movie-app-live";
 			productReference = 2C7E7DAC2E19797D00D8930B /* movie-app-live.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 2C7E7DA32E19797D00D8930B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2C7E7DDB2E197F7000D8930B /* XCRemoteSwiftPackageReference "InjectPropertyWrapper" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2C7E7DAD2E19797D00D8930B /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C7E7DDB2E197F7000D8930B /* XCRemoteSwiftPackageReference "InjectPropertyWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/egeniq/InjectPropertyWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C7E7DDC2E197F7000D8930B /* InjectPropertyWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C7E7DDB2E197F7000D8930B /* XCRemoteSwiftPackageReference "InjectPropertyWrapper" */;
+			productName = InjectPropertyWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C7E7DA42E19797D00D8930B /* Project object */;
 }

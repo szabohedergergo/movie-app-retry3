@@ -1,0 +1,15 @@
+{
+  "originHash" : "4257881c044cece61ed375e0e527b19c07a2cd14566175e74ffd15688432bdd1",
+  "pins" : [
+    {
+      "identity" : "injectpropertywrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/egeniq/InjectPropertyWrapper",
+      "state" : {
+        "revision" : "59b7beb5d3f67e58d034639c2da33d9802d27770",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
