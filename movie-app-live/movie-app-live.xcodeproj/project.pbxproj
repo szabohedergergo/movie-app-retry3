@@ -84,10 +84,10 @@
 		2C7E7DA32E19797D00D8930B = {
 			isa = PBXGroup;
 			children = (
-				2C7E7DAE2E19797D00D8930B /* movie-app-live */,
 				2C7E7DBF2E19798000D8930B /* movie-app-liveTests */,
 				2C7E7DC92E19798000D8930B /* movie-app-liveUITests */,
 				2C7E7DAD2E19797D00D8930B /* Products */,
+				2C7E7DAE2E19797D00D8930B /* movie-app-live */,
 			);
 			sourceTree = "<group>";
 		};
