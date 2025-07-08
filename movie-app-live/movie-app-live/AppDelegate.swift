@@ -8,7 +8,7 @@
 import UIKit
 import InjectPropertyWrapper
 import Swinject
-import FireBaseCore
+//import FireBaseCore
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     let assembler: MainAssembler
@@ -18,13 +18,13 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     ) -> Bool {
         print("App launched")
         
-        FirebaseApp.configure()
+        //FirebaseApp.configure()
         
         return true
     }
     
     override init(){
-        assembler = MainAssembler.create(withAssembles: [
+        assembler = MainAssembler.create(withAssemblies: [
             ServiceAssembly(),
             ViewModelAssembly()
         ])

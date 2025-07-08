@@ -8,7 +8,7 @@
 import Swinject
 
 class MainAssembler {
-    public static var instance: MainAssembler! != nil
+    public static var instance: MainAssembler! = nil
     
     var resolver: Resolver {
         return assembler.resolver

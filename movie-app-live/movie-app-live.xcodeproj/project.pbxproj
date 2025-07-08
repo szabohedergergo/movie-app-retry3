@@ -51,6 +51,11 @@
 			path = "movie-app-liveUITests";
 			sourceTree = "<group>";
 		};
+		2C7E819B2E1D6FED00D8930B /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,8 @@
 		2C7E7DA32E19797D00D8930B = {
 			isa = PBXGroup;
 			children = (
+				2C7E819B2E1D6FED00D8930B /* Resources */,
+				2C7E819A2E1D6FEA00D8930B /* New Group */,
 				2C7E7DBF2E19798000D8930B /* movie-app-liveTests */,
 				2C7E7DC92E19798000D8930B /* movie-app-liveUITests */,
 				2C7E7DAD2E19797D00D8930B /* Products */,
@@ -99,6 +106,13 @@
 				2C7E7DC62E19798000D8930B /* movie-app-liveUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7E819A2E1D6FEA00D8930B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +132,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2C7E7DAE2E19797D00D8930B /* movie-app-live */,
+				2C7E819B2E1D6FED00D8930B /* Resources */,
 			);
 			name = "movie-app-live";
 			packageProductDependencies = (
@@ -204,6 +219,8 @@
 			knownRegions = (
 				en,
 				Base,
+				hu,
+				ro,
 			);
 			mainGroup = 2C7E7DA32E19797D00D8930B;
 			minimizedProjectReferenceProxies = 1;

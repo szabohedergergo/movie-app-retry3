@@ -1,0 +1,7 @@
+//
+//  Untitled.swift
+//  movie-app-live
+//
+//  Created by Gergo Szabo on 2025. 07. 08..
+//
+
